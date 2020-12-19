@@ -1,0 +1,118 @@
+{
+  "movies": [
+    {
+      "name": "Uri",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://www.adgully.com/img/800/201905/uri-on-zee-cinema.jpg",
+      "price": 300
+    },
+    {
+      "name": "BAAGHI 3",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://m.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/03/07/Pictures/_dd3e67e0-6022-11ea-be04-6cf974e2d9f7.jpg",
+      "price": 350
+    },
+    {
+      "name": "War",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://english.cdn.zeenews.com/sites/default/files/2019/08/12/810702-war-poster.jpg",
+      "price": 400
+    },
+    {
+      "name": "Kabir Singh",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/10/26/747899-kabir-singh.jpg",
+      "price": 300
+    },
+    {
+      "name": "Angrezi Medium",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://m.hindustantimes.com/rf/image_size_1200x900/HT/p2/2020/04/06/Pictures/_b8dccac8-77af-11ea-b578-8bb50559d90e.jpg",
+      "price": 350
+    },
+    {
+      "name": "Dabangg 3",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201912/dabangg_3_0-770x433.jpeg?_kAuKSplRDzuRIivA.iUIHfEnMWGRTSU",
+      "price": 550
+    },
+    {
+      "name": "Avengers: Endgame",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://www.thenewsfetcher.com/wp-content/uploads/2020/02/817597-avengers-endgame.jpg",
+      "price": 600
+    },
+    {
+      "name": "Mission: Impossible - Fallout",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://i.ytimg.com/vi/MEOOas3JZt0/maxresdefault.jpg",
+      "price": 600
+    },
+    {
+      "name": "Sonic the Hedgehog",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://wehaveahulk.co.uk/wp-content/uploads/2020/01/Sonic-the-Hedgehog-800x445.jpg",
+      "price": 550
+    },
+    {
+      "name": "Wondar Woman",
+      "time": [
+        "9:00AM to 11:00AM",
+        "11:00AM to 1:00PM",
+        "2:00PM to 4:00PM"
+      ],
+      "image": "https://cdn.mos.cms.futurecdn.net/5e7ehPZf5RT6Jt2H9cQP6k.jpg",
+      "price": 550
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "yash",
+      "email": "yash@aress.com",
+      "password": "yasharess"
+    },
+    {
+      "name": "Varad Kale",
+      "email": "varad@aress.com",
+      "password": "varess",
+      "id": 2
+    }
+  ]
+}

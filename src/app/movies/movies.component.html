@@ -1,0 +1,77 @@
+<div class="movies-section py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 py-3" *ngFor="let movie of movies">
+        <div class="card">
+          <img src="{{ movie.image }}" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">{{ movie.name }}</h5>
+            <div class="my-2">
+              <label for="exampleFormControlSelect1">Show Time </label>
+              <select
+                class="form-control"
+                id="exampleFormControlSelect1"
+                (change)="onChange($event)"
+              >
+              <option disabled selected>Select...</option>
+                <option *ngFor="let time of movie.time" [value]="time">
+                  {{ time }}
+                </option>
+              </select>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <button
+              href="#"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#exampleModal"
+              (click)="showMovieData(movie)"
+            >
+              Book
+            </button>
+            <p class="card-text">
+              <strong>{{ movie.price | currency: "INR" }}</strong>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{ movieName }}</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+          #closebutton
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Time: </strong>{{ time }}</p>
+        <p><strong>Price: </strong> {{ price | currency: "INR" }}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" (click)="showToastr()">
+          Confirm
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
